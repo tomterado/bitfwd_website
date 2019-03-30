@@ -1,11 +1,18 @@
 import React from 'react';
-import './home.css';
-
+import FirstPage from './firstpage';
+import WhatWeDo from './whatWeDo';
+import VenturesProjects from './Ventures';
+import CommunityPhotos from './CommunityPhotos';
+import Footer from './Footer';
 
 const Home = () => {
     return (
-        <div className="homeMain">
-            <h1> Blockchain <br></br>Ventures.</h1>
+        <div className="content">
+            <FirstPage/>
+            <WhatWeDo/>
+            <VenturesProjects/>
+            <CommunityPhotos />
+            <Footer />
         </div>
     )
 }

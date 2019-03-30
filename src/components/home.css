@@ -1,9 +1,88 @@
-.homeMain {
+.content {
     padding-top: 60px;
     padding-left: 60px;
+}
+
+.homeMain {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
 }
 
 .homeMain h1 {
     color: aliceblue;
     font-size: 75px;
+}
+
+.heroImage {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+.heroImage img{
+    padding-top: 60px;
+    max-width: auto;
+    max-height: auto;
+}
+
+.emailSignUp {
+    width: 333px;
+	height:200px;
+	margin:10px;
+    padding:10px;
+    background:#de00df;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.whatWeDo {
+    padding: 50px;
+    color: aliceblue;
+}
+
+.whatWeDoText {
+    padding-bottom: 50px;
+}
+
+.paraText p{
+    fontSize: 24px;
+    padding: 30px;
+}
+
+.blockathons {
+    text-align: right;
+    flex-direction: row;
+}
+
+.displayImageBox1, .displayImageBox2{
+    width: 333px;
+	height:200px;
+	margin:10px;
+    padding:10px;
+    background:aliceblue;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.displayImageBox2 {
+    float: right;
+}
+
+.ventureProjects {
+    padding-top: 100px;
+}
+
+.projectDetails {
+    text-align: center;
+}
+
+.projectDetailsBox {
+    width: 220px;
+	height:100px;
+	margin:10px;
+    padding-right:30px;
+    background:aliceblue;
+    border-radius: 15px 15px 15px 15px;
+    color: #de00df;
 }
