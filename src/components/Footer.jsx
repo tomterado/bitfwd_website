@@ -3,12 +3,13 @@ import './home.css';
 
 const styles = {
     footer: {
-        padding: '36px 0',
+        padding: '20px 20px',
         background: '#03f4c6',
         color: '#fff',
         textAlign: 'center',
         fontSize: 18,
-        borderTop: '1px solid #1D2227'
+        borderTop: '1px solid #1D2227',
+        'fontWeight': 'bold',
       }
 }
 

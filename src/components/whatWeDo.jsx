@@ -2,15 +2,25 @@ import React from 'react';
 import './home.css';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
+import Container from 'react-bootstrap/Container';
+
+const styles = {
+    h1: {
+        color: 'aliceblue',
+    }
+
+    
+}
 
 const WhatWeDo = () => {
     return(
         <div>
-            <div className="whatWeDoText">
-                <h1> Empowering the Cryptosphere</h1>
-                <p className="paraText"> Hello world text. Hello world text. Hello world text. </p>
-                <p className="paraText"> Hello world text. Hello world text. Hello world text. </p>
-            </div>
+            <Container className="whatWeDo" style={styles.h1}>
+                <div className="whatWeDoText">
+                    <h1> Empowering the Cryptosphere</h1>
+                    <p className="paraText"> Hello world text. Hello world text. Hello world text. </p>
+                    <p className="paraText"> Hello world text. Hello world text. Hello world text. </p>
+                </div>
             <Row>
             <Col className="vrText">
                 <h1> Ventures & Research<br></br> Network</h1>
@@ -29,12 +39,11 @@ const WhatWeDo = () => {
                     We have done 8 Blockathons across Australia, China and Europe.
                 </p>
 
-                <div className="displayImageBox2">
-                </div>
+                <div className="displayImageBox2"> </div>
             </Col>
             </Row>
+            </Container>
         </div>
-
     )
 }
 

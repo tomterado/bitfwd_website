@@ -11,7 +11,18 @@ const FirstPage = () => {
                 <Col className="homeMain" sm={6}>
                     <h1> Blockchain <br></br>Ventures.</h1>
                     <div className="emailSignUp">
-
+                        <form>
+                            <p> Join the decentralised future.</p>
+                            <label> <input type="text" placeholder="Name" /> </label>
+                            <label> <input type="text" placeholder="Email" /> </label>
+                            <br></br>
+                            <input type="submit" value="Submit" />
+                        </form>
+                    </div>
+                    <div>
+                        <a href="/" title="bitfwd community"><img alt="" width="50px" height="50px" src="https://www.ycombinator.com/images/ycombinator-logo-fb889e2e.png"/></a> 
+                        <a href="/" title="bitfwd community"><img alt="" width="50px" height="50px" src="https://www.ycombinator.com/images/ycombinator-logo-fb889e2e.png"/></a> 
+                        <a href="/" title="bitfwd community"><img alt="" width="50px" height="50px" src="https://www.ycombinator.com/images/ycombinator-logo-fb889e2e.png"/></a> 
                     </div>
                 </Col>
                 <Col className="heroImage" sm={6}>
