@@ -34,7 +34,7 @@ const Navigation = () => {
     <div className="navBar">
         <Container className="topnavleft">
             <ul style={styles.ul}>
-                <li style={styles.logo}> <a href="/" title="bitfwd community"><img alt="" width="50px" height="50px" src="https://www.ycombinator.com/images/ycombinator-logo-fb889e2e.png"/></a> </li>
+                <li style={styles.logo}> <a href="/" title="bitfwd community"><img alt="" width="100px" height="100px" src={require('./images/bitfwd_logo.png')}/></a> </li>
                 <li style={styles.li}> <NavLink style={styles.a} to="/contact" > Contact</NavLink> </li>
                 <li style={styles.li}> <a style={styles.a} href="http://bitfwd.com/sydney-blockathon/"> Blockathon</a> </li>
                 <li style={styles.li}> <a style={styles.a} href="https://www.meetup.com/bitfwd/"> Events</a> </li>

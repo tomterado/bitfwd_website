@@ -19,6 +19,9 @@ const styles = {
         // 'justify-content': 'center',
         // 'align-items': 'center',
     },
+    noWrap: {
+        'flex-wrap': 'nowrap',
+    },
     colWidth: {
         'align': 'center',
         'display': 'block',
@@ -27,15 +30,12 @@ const styles = {
         'padding': '15px 0px 15px 0px',
     },
     secondaryImages: {
-        // 'display': 'flex',
-        // 'flex-direction': 'column',
-        // 'justify-content': 'center',
-
-        // 'display': 'flex',
-        // 'flex-direction': 'column',
-        // 'flex-basis': '100%',
-        // 'flex': '1',
-        'width': '50%',
+        'width': '100%',
+        'height': '100%',
+        'margin-left': 'auto',
+        'margin-right': 'auto',
+        'align': 'center',
+        'display': 'block',
     },
     textAlign: {
         'text-align': 'center',
@@ -47,12 +47,13 @@ const styles = {
 const CommunityPhotos = () => {
     return (
         <div>
-        <Container className="community">
-            <Container>
-                <Row md= "auto"> <img alt="ttt" style={styles.mainImage} src="https://user-images.githubusercontent.com/16810128/55327565-4e45d280-54c5-11e9-9b82-8e1470743776.png"/></Row>
-                <Row>
-                    <Col md="auto" style={styles.textAlign}>Tenzorum: Seamless <br></br> Blockchain UX</Col>
-                    <Col md="auto" style={styles.textAlign}>Tenzorum: Seamless <br></br> Blockchain UX</Col>
+        <Container>
+            <Container fluid>
+                <Row> <img alt="ttt" style={styles.mainImage} src={require('./images/team.png')}/></Row>
+                <Row style={styles.noWrap}>
+                    <Col><img style={styles.secondaryImages} alt="ttt" src={require('./images/daniel_china.png')}/> </Col>
+                    <Col><img style={styles.secondaryImages} alt="ttt" src={require('./images/daniel_kids.png')}/> </Col>
+
                 </Row>
             </Container>
         </Container>

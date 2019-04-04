@@ -10,6 +10,10 @@ const styles = {
         'padding-top': '20px',
         'padding-bottom': '20px',
     },
+    teamBox: {
+        borderRadius: '15px 15px 15px 15px',
+        background:'aliceblue',
+    }
 }
 
 const Team = () => {
@@ -17,11 +21,16 @@ const Team = () => {
             <div>
                 <Container>
                 <h1 style={styles.h1}> Team</h1>
+                
                     <Container>
                         <Row>
-                            <Col >Daniel Bar </Col>
-                            <Col >Daniel Bar </Col>
-                            <Col >Daniel Bar </Col>
+                            <Col style={styles.teamBox}>
+                                <Row>
+                                    <Col> 
+                                        <img alt="" width="150px" height="150px" src={require('./images/team/DB.jpeg')}/>
+                                    </Col>
+                                </Row>
+                            </Col>
                         </Row>
                     </Container>
                 </Container>
