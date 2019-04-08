@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/test_react_SPA/precache-manifest.2bdfb8b6ff989aa1a1ea2644fa5b2137.js"
+  "/bitfwd_website_test/precache-manifest.a44288b3d8dc57603aa0f4a583bf0da8.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/test_react_SPA/index.html", {
+workbox.routing.registerNavigationRoute("/bitfwd_website_test/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
