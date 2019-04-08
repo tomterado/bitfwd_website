@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/tomterado/bitfwd_website_test/precache-manifest.8310fb1af4daad3a78047cea5ae5a5b2.js"
+  "/tomterado/bitfwd_website_test/precache-manifest.4bbeb5ae963b853834c0ba6425587bc7.js"
 );
 
 workbox.clientsClaim();
