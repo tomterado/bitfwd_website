@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/bitfwd_website_test/static/media/daniel_china.f111b6ce.png"
   },
   {
-    "revision": "515d9e70715e6dbb1d4a",
+    "revision": "825a82ec16d1e92b8615",
     "url": "/bitfwd_website_test/static/css/main.1020a900.chunk.css"
   },
   {
@@ -60,8 +60,8 @@ self.__precacheManifest = [
     "url": "/bitfwd_website_test/static/media/team.f7e810f8.png"
   },
   {
-    "revision": "515d9e70715e6dbb1d4a",
-    "url": "/bitfwd_website_test/static/js/main.4094c74e.chunk.js"
+    "revision": "825a82ec16d1e92b8615",
+    "url": "/bitfwd_website_test/static/js/main.d2339dcf.chunk.js"
   },
   {
     "revision": "6ee3decf32b045d385731f2f2a26fe21",
@@ -116,7 +116,7 @@ self.__precacheManifest = [
     "url": "/bitfwd_website_test/static/media/tralia.dc6bd79f.jpg"
   },
   {
-    "revision": "d8ab356e9cbb2f4771c280d0394fdbd3",
+    "revision": "6ec9adabc4e065a2b66f549b3e7749d2",
     "url": "/bitfwd_website_test/index.html"
   }
 ];

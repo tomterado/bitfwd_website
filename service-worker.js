@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/bitfwd_website_test/precache-manifest.a44288b3d8dc57603aa0f4a583bf0da8.js"
+  "/bitfwd_website_test/precache-manifest.bc06d0e33c985733dd71708cafa56c8e.js"
 );
 
 workbox.clientsClaim();
